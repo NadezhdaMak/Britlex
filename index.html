@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/bulb.svg" type="image/x-icon">
+    <title>Britlex</title>
+</head>
+<body>
+    <div class="dark"></div>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__inner">
+                <img class="logo" src="images/logo.svg" alt="Logo">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu__wrapper">
+                    <ul class="nav__menu">
+                        <li><a data-goto="#header" class="menu__link" href="#">Home</a></li>
+                        <li><a data-goto="#skills" class="menu__link" href="#">Skills</a></li>
+                        <li><a data-goto="#about" class="menu__link" href="#">About Us</a></li>
+                        <li><a data-goto="#pricing" class="menu__link" href="#">Pricing</a></li>
+                        <li><a data-goto="#contact" class="menu__link" href="#">Contacts</a></li>
+                    </ul>
+                    <a class="nav__btn btn">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__left">
+                    <div class="header__left-title">
+                        <h1 class="text_h1 header_h1">Learn <br> Any Foreign Language</h1>
+                        <img class="header__bulb" src="images/bulb.svg" alt="bulb">
+                    </div>
+                    <p class="text_p header_p">With our teachers who write a program for each student, you will be able to make your first sketch after the first lesson.</p>
+                    <a href="" class="btn header__left-btn">Get started</a>
+                </div>
+                <img class="header__pic" src="images/header-pic.png" alt="Languages">
+            </div>
+            </div>
+    </header>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h4 class="text_h4 skills_h4">Skills</h4>
+            <div class="skills__grid">
+                <div class="skills__grid-item speaking">
+                    <img class="speaking__pic skills__pic" src="images/skills-speaking.png" alt="Speaking">
+                    <div class="grid-item_wrapper">
+                        <h2 class="text_h2 skills_h2">Speaking</h2>
+                        <p class="text_p skills_p skills_p-mb">Improve your English skills and confidence.
+                            Live classes and interactive lessons online.
+                            20% extra free for a limited time only</p>
+                        <p class="text_p skills_p">Learn English online and improve your
+                            skills through our high-quality courses
+                             and resources – all designed for adult
+                             language learners.</p>
+                        <a href="#" class="btn skills_btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="skills__grid-item writing">
+                    <img class="writing__pic skills__pic" src="images/skills-writing.png" alt="Writing">
+                    <div class="grid-item_wrapper">
+                        <h2 class="text_h2 skills_h2">Writing</h2>
+                        <p class="text_p skills_p">One of the most important and extensive
+                             areas of natural science, the science that
+                             studies substances, also their composition </p>
+                        <a href="#" class="btn skills_btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="skills__grid-item reading">
+                    <img class="reading__pic skills__pic" src="images/skills-reading.png" alt="Reading">
+                    <div class="grid-item_wrapper">
+                        <h2 class="text_h2 skills_h2">Reading</h2>
+                        <p class="text_p skills_p">perception and response actions of the user
+                            resulting from the use and/or upcoming use
+                            of the product, system or service</p>
+                        <a href="#" class="btn skills_btn">Learn more</a>
+                    </div>
+                </div>
+                <div class="skills__grid-item listening">
+                    <img class="listening__pic skills__pic" src="images/skills-listening.png" alt="Listening">
+                    <div class="grid-item_wrapper">
+                        <h2 class="text_h2 skills_h2">Listening</h2>
+                        <p class="text_p skills_p">Here you can find activities to practise
+                            your listening skills. Listening will help you
+                            to improve your understanding </p>
+                        <a href="#" class="btn skills_btn">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <h4 class="text_h4 about_h4">About Us</h4>
+                <div class="about__left">
+                    <p class="text_p about_p">
+                        The model offers a framework for discussing problems related
+                        to the user's experience, as well as possible ways and means
+                        of solving them. Application development begins at the top level
+                        (strategy), where the future software product is described quite
+                        abstractly from the point of view of the expectations of both users
+                        and the customer.
+                    </p>
+                    <div class="about__flex">
+                        <div class="about__flex-item">
+                            <div class="flex-item_num">800</div>
+                            <p class="text_p flex-item_p">Pupils</p>
+                        </div>
+                        <div class="about__flex-item">
+                            <div class="flex-item_num">18</div>
+                            <p class="text_p flex-item_p">Teachers</p>
+                        </div>
+                        <div class="about__flex-item">
+                            <div class="flex-item_num">6</div>
+                            <p class="text_p flex-item_p">Foreign languages</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="about__pic" src="images/aboutUs.png" alt="About us">
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h4 class="text_h4 pricing_h4">Pricing</h4>
+            <div class="pricing__inner">
+                <div class="pricing__inner-item">
+                    <img class="pricing__pic" src="images/pricing-1.png" alt="Self-study online course">
+                    <h2 class="text_h2 pricing_h2">Self-study online course</h2>
+                    <p class="text_p pricing_p">Start learning English online in live classes
+                        with qualified EC teachers and students 
+                        from all over the world.</p>
+                    <a class="pricing__btn" href="#">
+                        <span class="price">&pound5.99</span>
+                        <span class="per-month"> per month</span>
+                    </a>
+                </div>
+                <div class="pricing__inner-item">
+                    <img class="pricing__pic" src="images/pricing-2.svg" alt="Live online classes">
+                    <h2 class="text_h2 pricing_h2">Live online classes</h2>
+                    <p class="text_p pricing_p">Interactive group classes with expert
+                        teachers. Free 7-day trial</p>
+                    <a class="pricing__btn" href="#">
+                        <span class="price">&pound12.99</span>
+                        <span class="per-month"> per month</span>
+                    </a>
+                </div>
+                <div class="pricing__inner-item">
+                    <img class="pricing__pic" src="images/pricing-3.png" alt="Personal Tuition">
+                    <h2 class="text_h2 pricing_h2">Personal Tuition</h2>
+                    <p class="text_p pricing_p">Online one-to-one English tutoring – enjoy 
+                    our first session for only $1</p>
+                    <a class="pricing__btn" href="#">
+                        <span class="price">&pound20.99</span>
+                        <span class="per-month"> per month</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <img class="contact__pic" src="images/contact.png" alt="Contact Us">
+                <h4 class="text_h4 contact_h4">Contact Us</h4>
+                <div class="contact__right">
+                    <p class="text_p contact_p">Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips and free resources</p>
+                    <div class="contact__wrapper">
+                        <input class="contact__input" type="email" name="" id="" placeholder="Enter Your E-mail">
+                        <a class="contact__btn btn" href="#">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="line"></div>
+            <div class="footer__inner">
+                <img class="logo" src="images/logo.svg" alt="Logo">
+                <p class="text_p footer_p">Terms and Conditions &#8226; Privacy Policy &#8226; Cookie Policy</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
